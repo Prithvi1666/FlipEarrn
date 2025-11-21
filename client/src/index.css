@@ -5,3 +5,10 @@
 *{
   font-family: "Rethink Sans", sans-serif;
 }
+buttom {
+  @apply cursor-pointer;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
