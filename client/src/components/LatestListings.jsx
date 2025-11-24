@@ -5,7 +5,7 @@ import ListingCard from './ListingCard';
 
 const LatestListings = () => {
 
-    const {listings} = useSelector((state) => state.listing);
+    const {listings} = useSelector(state => state.listing)
 
   return (
     <div className='mt-20 mb-8'>
